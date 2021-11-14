@@ -1,0 +1,8 @@
+C:\Users\hatip\Documents\GitHub\RabbitMQ\Webform+Console\Consumer.ConsoleApp\bin\Debug\netcoreapp2.1\Consumer.ConsoleApp.deps.json
+C:\Users\hatip\Documents\GitHub\RabbitMQ\Webform+Console\Consumer.ConsoleApp\bin\Debug\netcoreapp2.1\Consumer.ConsoleApp.runtimeconfig.json
+C:\Users\hatip\Documents\GitHub\RabbitMQ\Webform+Console\Consumer.ConsoleApp\bin\Debug\netcoreapp2.1\Consumer.ConsoleApp.runtimeconfig.dev.json
+C:\Users\hatip\Documents\GitHub\RabbitMQ\Webform+Console\Consumer.ConsoleApp\bin\Debug\netcoreapp2.1\Consumer.ConsoleApp.dll
+C:\Users\hatip\Documents\GitHub\RabbitMQ\Webform+Console\Consumer.ConsoleApp\obj\Debug\netcoreapp2.1\Consumer.ConsoleApp.csprojAssemblyReference.cache
+C:\Users\hatip\Documents\GitHub\RabbitMQ\Webform+Console\Consumer.ConsoleApp\obj\Debug\netcoreapp2.1\Consumer.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\hatip\Documents\GitHub\RabbitMQ\Webform+Console\Consumer.ConsoleApp\obj\Debug\netcoreapp2.1\Consumer.ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\hatip\Documents\GitHub\RabbitMQ\Webform+Console\Consumer.ConsoleApp\obj\Debug\netcoreapp2.1\Consumer.ConsoleApp.AssemblyInfo.cs

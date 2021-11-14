@@ -12,6 +12,8 @@ namespace RabbitMQProject
 {
     public partial class WebForm1 : System.Web.UI.Page
     {
+        private static string connectionString = "amqp://guest:guest@localhost:5672//";
+
         private IConnection connection;
 
         private IModel _channel;
@@ -33,7 +35,7 @@ namespace RabbitMQProject
         {
             ConnectionFactory factory = new ConnectionFactory()
             {
-                Uri = new Uri("amqp://guest:guest@localhost:5672//", UriKind.RelativeOrAbsolute)
+                Uri = new Uri(connectionString, UriKind.RelativeOrAbsolute)
             };
             return factory.CreateConnection();
         }
@@ -43,7 +45,7 @@ namespace RabbitMQProject
             //öncelikle producerdan bir kanal aracılığıyla exchange gidecek
             if (channel != null)
             {
-                channel.ExchangeDeclare(tbExchangeName.Text, ddlExchangeType.SelectedValue);
+                channel.ExchangeDeclare(tbExchangeName.Text, ddlExchangeType.SelectedValue, true, false);
             }
         }
 
